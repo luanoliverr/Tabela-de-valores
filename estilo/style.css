@@ -7,8 +7,8 @@
 
 body, html {
     height: 100%;
-    background: gray url(../imagens/fundo-bordado.jpg) center center no-repeat fixed;
-    background-size: 107vh, 107vw;
+    background: black url(../imagens/fundo-bordado.jpg) center center no-repeat fixed;
+    background-size: 70vh, 70vw;
     min-width: 300px;
     min-height: 300px;
 }
