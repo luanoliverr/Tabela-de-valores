@@ -8,6 +8,7 @@
 body, html {
     height: 100%;
     background: black url(../imagens/fundo-bordado-p.png) center center no-repeat fixed;
+    background-attachment: fixed;
     min-width: 300px;
     min-height: 300px;
 }
