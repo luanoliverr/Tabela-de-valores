@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background: gray url(../imagens/fundo-bordado.jpg) center center no-repeat fixed;
+    background-size: 100vw 100vh;
+}
+  
+table {
+    font-family:Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    background-image: linear-gradient(to right, #00000069, #ffd90041, #00000070);
+    margin: auto;
+}
+
+caption {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.952), gold, black);
+    padding: 7px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+td.cont {
+    text-align: center;
+}
+
+#tabela2 {
+    margin-top: 25px;
+    height: 200px;
+}
+
+p {
+    font-family: serif;
+    background-color: lightgray;
+    margin: 25px 15px 45px 15px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+#maquininha {
+    position: absolute;
+    top: 3px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+footer a {
+    text-decoration: none;
+    padding-right: 35px;
+    font-size: 1.1em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#telefone {
+    position: inherit;
+    top: 10px;
+    left: -35px;
+}
+
+a#insta {
+    padding-left: 30px;
+}
+
+#instagram {
+    position: inherit;
+    top: 10px;
+    left: -30px;
+}
