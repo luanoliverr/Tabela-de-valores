@@ -6,8 +6,9 @@
 }
 
 body, html {
+    height: 100%;
     background: gray url(../imagens/fundo-bordado.jpg) center center no-repeat fixed;
-    background-size: 100%;
+    background-size: 107vh, 107vw;
     min-width: 300px;
     min-height: 300px;
 }
