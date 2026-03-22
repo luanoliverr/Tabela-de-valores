@@ -8,6 +8,8 @@
 body, html {
     background: gray url(../imagens/fundo-bordado.jpg) center center no-repeat fixed;
     background-size: cover;
+    min-width: 300px;
+    min-height: 300px;
 }
   
 table {
